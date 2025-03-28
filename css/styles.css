@@ -23,6 +23,7 @@ body{
     color: #2e2f42;
 }
 
+.nav-link-stud,
 .nav-link{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -33,7 +34,13 @@ body{
 }
 .nav-link:hover{
     color: #404bbf;
-}   
+}
+.nav-link-stud:hover {
+    color: #404bbf;
+}
+.nav-link-stud:focus {
+    color: #404bbf;
+}
 
 address{
     font-style: normal;
@@ -47,4 +54,14 @@ address{
 }
 .address-email:hover{
     color: #404bbf;
+}
+
+.footer{
+    background-color: #2e2f42;
+}
+
+.footer-text{
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
