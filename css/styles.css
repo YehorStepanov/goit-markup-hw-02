@@ -22,8 +22,16 @@ body{
     text-transform: uppercase;
     color: #2e2f42;
 }
+.footer-logo-web {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
 
-.nav-link-stud,
 .nav-link{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -32,12 +40,8 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.nav-link:hover{
-    color: #404bbf;
-}
-.nav-link-stud:hover {
-    color: #404bbf;
-}
+.nav-link:hover,
+.nav-link-stud:hover,
 .nav-link-stud:focus {
     color: #404bbf;
 }
@@ -52,6 +56,8 @@ address{
     letter-spacing: 0.02em;
     color:#434455;
 }
+
+.address-email:focus,
 .address-email:hover{
     color: #404bbf;
 }
