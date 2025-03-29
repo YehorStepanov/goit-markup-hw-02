@@ -76,6 +76,12 @@ address{
 .main-button{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+    font-family:  "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 
 .main-button:focus,
@@ -99,9 +105,17 @@ address{
     color: #434455;
 }
 
-.section-3-img{
-    width: 264px;
-    height: 260px;
+.section-3{
+    background-color: #f4f4fd;
+}
+.section-3-h2{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 .section-3-h3{
     font-weight: 500;
@@ -121,6 +135,7 @@ address{
 }
 
 .section-4-h2 {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -128,10 +143,7 @@ address{
     text-align: center;
     color: #2e2f42;
 }
-.section-4-img {
-    width: 360px;
-    height: 300px;
-}
+
 
 .section-4-h3 {
     font-weight: 500;
