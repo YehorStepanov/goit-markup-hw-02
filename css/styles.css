@@ -135,10 +135,10 @@ address{
 
 .section-2-li,
 .section-3-li,
-.section-4-li{
+.section-fr-li{
     background-color: #FFFFFF;
 }
-.section-4-h2 {
+.section-fr-ht {
     text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
@@ -149,7 +149,7 @@ address{
 }
 
 
-.section-4-h3 {
+.section-fr-hth {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -157,7 +157,7 @@ address{
     color:#2e2f42
 }
 
-.section-4-p {
+.section-fr-p {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
