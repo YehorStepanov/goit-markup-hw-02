@@ -82,6 +82,7 @@ address{
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .main-button:focus,
@@ -134,6 +135,11 @@ address{
     color: #434455;
 }
 
+.section-2-li,
+.section-3-li,
+.section-4-li{
+    background-color: #FFFFFF;
+}
 .section-4-h2 {
     text-transform: capitalize;
     font-weight: 700;
